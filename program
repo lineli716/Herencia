@@ -1,0 +1,97 @@
+usando el  sistema ;
+utilizando  System . Colecciones . Genérico ;
+utilizando  System . Linq ;
+utilizando  System . Texto ;
+utilizando  System . Enhebrado . Tareas ;
+
+ Operas de espacio de nombres
+{
+     programa de clase
+    {
+        estática  Operaciones  operasd  =  nuevos  Operaciones ();
+
+         Menú  estático m  =  nuevo  menú ();
+
+        
+
+
+        static  void  Main ( cadena [] argumentos )
+
+        {
+
+            int  opciones  =  0 ;
+
+            Consola . WriteLine ( " integrantes: Osmar, Giuliana, Isabel, Lineli y Fatima " );
+            Consola . WriteLine ( " ______________________________________________________ \ n  " );
+
+            while ( opciones  ! =  4 )
+
+            {
+
+                opciones  =  m . ListaMenu ();
+
+                if ( opciones  ==  1 )
+
+                {
+
+                    Consola . WriteLine ( operasd . Resultado ( 's' ));
+
+
+
+                }
+
+                else  if ( opciones  ==  2 )
+
+                {
+
+                    Consola . WriteLine ( operasd . Resultado ( 'r' ));
+
+                }
+
+                else  if ( opciones  ==  3 )
+
+                {
+
+                    Consola . WriteLine ( operasd . Resultado ( 'm' ));
+
+                }
+
+                else  if ( opciones  ==  4 )
+
+                {
+
+                    Consola . WriteLine ( operasd . Resultado ( 'd' ));
+
+                }
+
+                else  if ( opciones  ==  5 )
+
+                {
+
+                    Consola . WriteLine ( operasd . Resultado ( 'p' ));
+
+                }
+
+                else  if ( opciones  ==  6 )
+
+                {
+
+                    Consola . WriteLine ( operasd . Resultado ( 'i' ));
+
+                }
+            }
+
+
+
+
+
+            Consola . ReadKey ();
+
+        }
+
+
+
+
+
+    }
+}
